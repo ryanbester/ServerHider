@@ -106,9 +106,7 @@ public class ServerHider extends Plugin implements Listener {
 					String formattedSuggestion = suggestionsIterator.next();
 					
 					if(ignoreCase) formattedSuggestion = formattedSuggestion.toLowerCase();
-					
-					getLogger().info(formattedSuggestion);
-					
+										
 					if(servers.contains(formattedSuggestion)) {
 						suggestionsIterator.remove();
 					}
