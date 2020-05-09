@@ -1,0 +1,11 @@
+# Whether the server names should be case sensitive
+ignoreCase: true
+
+# Whether to exclude the following servers from the list or include them
+# If set to exclude, the following servers will be hidden
+# If set to include, the list will be empty and only the following servers will be visible
+action: "exclude"
+
+# List of servers to hide or show
+servers:
+   - pvp

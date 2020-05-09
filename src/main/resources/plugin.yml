@@ -1,0 +1,5 @@
+main: com.ryanbester.serverhider.ServerHider
+name: ServerHider
+version: ${project.version}
+author: Ryan Bester
+description: Hide servers from BungeeCord tab complete
